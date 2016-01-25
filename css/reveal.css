@@ -1,3 +1,39 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'TiemposHeadline';
+  src: url("fonts/TiemposHeadline-Black.eot");
+  src: local("☺"), url("/fonts/TiemposHeadline-Black.woff") format("woff"), url("/fonts/TiemposHeadline-Black.ttf") format("truetype"), url("/fonts/TiemposHeadline-Black.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'National';
+  font-weight: 200;
+  src: url("fonts/NationalLight.eot");
+  src: url("fonts/NationalLight.eot") format("embedded-opentype"), url("fonts/NationalLight.woff2") format("woff2"), url("fonts/NationalLight.woff") format("woff"), url("fonts/NationalLight.ttf") format("truetype"), url("fonts/NationalLight.svg#NationalLight") format("svg");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'National';
+  font-weight: 400;
+  src: url("fonts/NationalBook.eot");
+  src: url("fonts/NationalBook.eot") format("embedded-opentype"), url("fonts/NationalBook.woff2") format("woff2"), url("fonts/NationalBook.woff") format("woff"), url("fonts/NationalBook.ttf") format("truetype"), url("fonts/NationalBook.svg#NationalBook") format("svg");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'National';
+  font-weight: 600;
+  src: url("fonts/NationalBold.eot");
+  src: url("fonts/NationalBold.eot") format("embedded-opentype"), url("fonts/NationalBold.woff2") format("woff2"), url("fonts/NationalBold.woff") format("woff"), url("fonts/NationalBold.ttf") format("truetype"), url("fonts/NationalBold.svg#NationalBold") format("svg");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'National';
+  font-weight: 800;
+  src: url("fonts/NationalBlackItalic.eot");
+  src: url("fonts/NationalBlackItalic.eot") format("embedded-opentype"), url("fonts/NationalBlackItalic.woff2") format("woff2"), url("fonts/NationalBlackItalic.woff") format("woff"), url("fonts/NationalBlackItalic.ttf") format("truetype"), url("fonts/NationalBlackItalic.svg#NationalBlackItalic") format("svg");
+  font-style: normal; }
+
 /*!
  * reveal.js
  * http://lab.hakim.se/reveal-js
@@ -1301,12 +1337,36 @@ html:-moz-full-screen-ancestor {
   border: none !important;
   box-shadow: none !important; }
 
-.reveal .image {
-  height: 100px;
+.reveal .img {
   width: auto;
   display: inline-block;
   vertical-align: middle;
   padding: 0 20px; }
 
+.reveal .img-md {
+  height: 100px; }
+
+.reveal .img-s {
+  height: 70px; }
+
+.reveal .img-xs {
+  height: 40px; }
+
+.reveal .inline {
+  display: inline-block; }
+
+.reveal .circle {
+  border: 1px solid #FF265C;
+  border-radius: 100%;
+  padding: 25px; }
+
 .reveal ul li {
   margin: 20px 0; }
+
+.reveal a {
+  color: #FF265C !important; }
+  .reveal a:hover {
+    text-decoration: underline; }
+
+.reveal h6 {
+  font-size: 24px !important; }

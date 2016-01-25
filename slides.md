@@ -4,6 +4,7 @@
 
 ### Paul Ballas
 
+###### Slides available at [GitHub](https://github.com/paulballas/html_css_bootcamp).
 ---
 ## Hi, I'm Paul.
 ## Nice to meet you.
@@ -58,11 +59,10 @@ Realizes not good enough to play D1 hockey. Transfers to Radford University in V
 
 --
 
-<img class="image" src="images/hw.png"> <img class="image" src="images/dd.png">
+<img class="img img-md" src="images/hw.png">
+<img class="img img-md" src="images/dd.png">
 - **HelloWallet** acquired by Morningstar for $50M.
 - Joins **DeloitteDigital** as a **Lead UX Designer**.
-- Teaches **Front-End** dev 12 week course at **GA**.
-- Mentors startups at **1776** (DC based incubator).
 
 --
 
@@ -73,10 +73,38 @@ Realizes not good enough to play D1 hockey. Transfers to Radford University in V
 
 --
 
-<img class="image" src="images/pana.png">
+<img class="img img-md" src="images/pana.png">
 - Joins **Pana** as **Head of Product** in August.
 - Pana is virtual travel app, backed by:
   - **Techstars**
   - **500 Startups**
   - **Foundry Group**
   - among other angels.
+
+--
+<img class="img img-md" src="images/ga.png">
+<img class="img img-md" src="images/gal.png">
+<img class="img img-s" src="images/1776.png">
+- Teach at **GeneralAssembly**
+  - Front-end dev & UX design
+- Mentors startups at **1776** (DC based incubator).
+- Mentors startups at **Galvanize**.
+
+---
+
+#Let's get coding!
+
+---
+
+## The web
+<div class="inline circle"><img class="img img-s circled" src="images/icons/code.svg"></div>
+<img class="img img-xs" src="images/icons/arrow-right.svg">
+<img class="img img-s" src="images/icons/server.svg">
+<img class="img img-xs" src="images/icons/arrow-right.svg">
+<img class="img img-s" src="images/icons/cloud.svg">
+<img class="img img-xs" src="images/icons/arrow-right.svg">
+<img class="img img-s" src="images/icons/computer.svg">
+<br />
+We'll be learning about **web** programming today.
+<br />
+Code that is compiled together, placed on a server, and distributed via the internet.
