@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Example 1</title>
+
+    <!-- CSS -->
+    <style media="screen">
+      html { background: #FDF6F2; }
+      span { color: #FF265C; font-weight: bold;}
+      p { font-size: 18px;}
+      button {font-size: 14px; padding: 0.5em; border-radius: 5px; background-color: rgba(41, 44, 66, 0.85); color: #fff; border: 1px solid rgba(41, 44, 66, 0.85);}
+      button:hover {cursor: pointer; background-color: rgba(41, 44, 66, 1);}
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Hello World</h1>
+    <p>Welcome to <span>HTML</span> &amp; <span id="css">CSS</span>, basics of coding class.</p>
+    <button id="btn">change color</button>
+
+    <!-- Javascript -->
+    <script>
+      function changeColor(newColor) {
+        var elem = document.getElementById("css");
+        elem.style.color = newColor;
+      }
+
+      var bar = document.getElementById('btn');
+
+      bar.onclick = function changeme() {
+        changeColor("#C420D4");
+      }
+    </script>
+
+  </body>
+</html>

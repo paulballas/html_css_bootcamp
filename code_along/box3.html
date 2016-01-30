@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      p {
+        display: inline-block;
+        max-width: 300px;
+      }
+      code {
+        display: block;
+        font-weight: bold;
+        background-color: lightgray;
+        padding: 10px 15px;
+        max-width: 450px;
+        border-radius: 5px;
+      }
+
+      h3 span {
+        color: blue;
+      }
+
+      .two p {
+        border: 1px solid blue;
+      }
+
+      .three p {
+        padding: 20px;
+      }
+
+      .four p {
+        margin: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="one">
+      <h3>No border | No padding | No margin</h3>
+      <p>After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... </p>
+      <p>After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... </p>
+      <hr>
+    </div>
+
+    <div class="two">
+      <h3><span>Border</span> | No padding | No margin</h3>
+      <code>border: 1px solid blue;</code>
+      <p>After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... </p>
+      <p>After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... </p>
+      <hr>
+    </div>
+
+    <div class="two three">
+      <h3><span>Border</span> | <span>Padding</span> | No margin</h3>
+      <code>border: 1px solid blue; padding:20px;</code>
+      <p>After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... </p>
+      <p>After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... </p>
+      <hr>
+    </div>
+
+    <div class="two three four">
+      <h3><span>Border</span> | <span>Padding</span> | <span>Margin</span></h3>
+      <code>border: 1px solid blue; padding:20px; margin: 20px;</code>
+      <p>After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... </p>
+      <p>After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... </p>
+      <hr>
+    </div>
+
+  </body>
+</html>

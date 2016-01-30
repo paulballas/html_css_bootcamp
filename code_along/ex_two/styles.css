@@ -1,0 +1,111 @@
+/*fonts*/
+@font-face {
+  font-family: 'National';
+  font-weight: 800;
+  src: url('../../css/fonts/NationalBlackItalic.eot');
+  src: url('../../css/fonts/NationalBlackItalic.eot') format('embedded-opentype'), url('../../css/fonts/NationalBlackItalic.woff2') format('woff2'), url('../../css/fonts/NationalBlackItalic.woff') format('woff'), url('../../css/fonts/NationalBlackItalic.ttf') format('truetype'), url('..././css/fonts/NationalBlackItalic.svg#NationalBlackItalic') format('svg');
+  font-style: normal;
+}
+
+body,
+html,
+* {
+  color: #555;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.title {
+  font-family: 'National';
+  font-size: 72px;
+}
+
+small {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size: 36px;
+  border-bottom: 1px solid #555;
+  max-width: 40%;
+  margin: 20px auto;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  padding: 5px 0;
+  border-bottom: 1px dashed #555;
+}
+
+img {
+  float: left;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin: 30px 10px;
+}
+
+.container {
+  display: block;
+  width: 100%;
+}
+
+.col {
+  display: block;
+  max-width: 30%;
+  float: left;
+  padding: 10px;
+}
+
+.expand {
+  max-width: 32%;
+}
+
+.col img {
+  width: 435px;
+  margin: 0;
+}
+
+.sec {
+  background-color: lightblue;
+  border: 1px solid gray;
+  margin: 10px 0;
+}
+
+.sec,
+caption,
+code {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  color: deeppink;
+}
+
+
+/**/
+/**/
+@media (max-width: 768px) {
+  body,
+  html,
+  *,
+  col {
+    width: 100% !important;
+    display: block !important;
+    max-width: 100% !important;
+  }
+}
