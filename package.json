@@ -43,5 +43,9 @@
     "grunt": "~0.4.5",
     "node-sass": "~3.3.3"
   },
+  "scripts": {
+    "postinstall": "grunt uglify",
+    "start": "node server.js"
+  },
   "license": "MIT"
 }
