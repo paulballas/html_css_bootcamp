@@ -45,7 +45,7 @@
   },
   "scripts": {
     "postinstall": "grunt uglify",
-    "start": "grunt serve"
+    "start": "node server.js"
   },
   "license": "MIT"
 }
