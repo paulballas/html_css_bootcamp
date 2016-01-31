@@ -173,4 +173,6 @@ module.exports = function(grunt) {
 	// Run tests
 	grunt.registerTask( 'test', [ 'jshint', 'qunit' ] );
 
+	grunt.registerTask('heroku',['compass:dist', 'autoprefixer', 'imagemin']);
+
 };

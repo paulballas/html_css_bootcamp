@@ -6,8 +6,8 @@
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
-    "test": "grunt test",
-    "start": "grunt serve"
+    "postinstall": "grunt uglify",
+    "start": "node server.js"
   },
   "author": {
     "name": "Hakim El Hattab",
@@ -22,7 +22,7 @@
     "node": "~4.1.1"
   },
   "dependencies": {
-    "express": "~4.13.3",
+    "express": "^4.13.4",
     "grunt": "0.4.5",
     "grunt-cli": "0.1.13",
     "grunt-contrib-uglify": "0.11.0",
@@ -42,10 +42,6 @@
     "grunt-zip": "~0.17.1",
     "grunt": "~0.4.5",
     "node-sass": "~3.3.3"
-  },
-  "scripts": {
-    "postinstall": "grunt uglify",
-    "start": "node server.js"
   },
   "license": "MIT"
 }
