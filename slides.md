@@ -397,3 +397,17 @@ Even though you won't find a text box telling you to not use an *ID* in your css
 It's a long discussion why, but you should only use an *ID* with javascript.
 
 <small>Just trust me on this :)</small>
+
+--
+# Let's write some code!
+
+--
+## What to do
+
+- Open up *Atom*
+- Create a new folder on your *Desktop*, and name it ```project```.
+- *Drag* the folder to *Atom* (It'll open the folder in *Atom*)
+- Create *2* different files, that'll go inside the ```project```folder:
+  - One named name ```index.html```.
+  - One named ```styles.css```.
+- Follow along in [**Example 4**](../code_along/project/index.html)
