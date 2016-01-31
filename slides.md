@@ -10,6 +10,23 @@
 ## Hi, I'm Paul.
 ## Nice to meet you.
 
+---
+### Schedule
+- **6:30 - 6:40** Welcome! + Introduction
+- **6:40 - 6:55** What we'll be learning + The Web)
+- **6:55- 8:00** HTML
+- **8:00 8:15** HTML Code together
+- **8:15 - 9:15** CSS
+- **9:15 - 9:30** CSS Code together
+- **8:15 - 9:15** CSS
+- **9:30** Questions + See ya later!
+
+
+---
+## Introduction
+
+(who is this dude at the front?)
+
 --
 
 ## 1992
@@ -74,7 +91,8 @@ Realizes not good enough to play D1 hockey. Transfers to Radford University in V
 
 --
 
-<img class="img img-xs" src="images/pana.png">
+## Today
+<img class="img img-icon" src="images/pana.png">
 - Joins **Pana** as **Head of Product** in August.
 - Pana is virtual travel app, backed by:
   - **Techstars**
@@ -83,6 +101,9 @@ Realizes not good enough to play D1 hockey. Transfers to Radford University in V
   - among other angels.
 
 --
+
+## Also...
+
 <img class="img img-xs inline" src="images/ga.png">
 <img class="img img-xs inline" src="images/gal.png">
 <img class="img img-xs inline" src="images/1776.png">
@@ -156,6 +177,35 @@ becomes
 Hello World!
 
 --
+## A tag for everything!
+- Paragraph: ```<p>```
+- Anchor (link): ```<a>```
+- Header: ```<header>```
+- Footer: ```<footer>```
+- List item: ```<li>```
+- Navigation: ```<nav>```
+
+[Full list of tags (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+--
+## Two types of tags
+### Regular and empty
+
+- Regular: ```<div>foo bar</div>```
+- Empty: ```<img src="images/cat.png">```
+
+Empty tags can be *optionally* be closed, but it's not required:
+
+- ```<img>``` &nbsp; &rarr; &nbsp; ```<img />```
+
+--
+
+**Semantics** is the study of the meanings of words and phrases in language. A semantic element clearly describes its meaning to both the browser and the developer.
+
+- Non-semantic elements: ```<div>``` and ```<span>``` - Tells nothing about its content.
+- Semantic elements: ```<form>```, ```<table>```, and ```<img>``` - Clearly defines its content.
+
+**Why is it important to use a semantic tag like** ```<header>```, **opposed to just using a** ```<div>``` **tag everywhere?**
+--
 
 ## If you can read a newspaper, you can learn html.
 
@@ -167,12 +217,6 @@ Hello World!
 
 --
 
-**Semantics** is the study of the meanings of words and phrases in language. A semantic element clearly describes its meaning to both the browser and the developer.
-
-- Non-semantic elements: ```<div>``` and ```<span>``` - Tells nothing about its content.
-- Semantic elements: ```<form>```, ```<table>```, and ```<img>``` - Clearly defines its content.
-
---
 ## Let's build the newspaper with code
 [**Example 2**](../code_along/ex_two/ex_two.html)
 
@@ -203,9 +247,11 @@ Hello World!
 
 --
 
-<img src="/images/html.png" class="img img-xxl">
+## Outline
+<img src="/images/html.png" class="img img-lg">
 
 --
+
 # Let's write some code!
 
 --
@@ -223,7 +269,7 @@ Hello World!
 
 ## Boring definition.
 
-**CSS** Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.
+**CSS** Cascading Style Sheets (CSS) is a language for specifying how documents are presented to users. These documents are written in a markup language such as HTML.
 
 --
 
@@ -268,6 +314,87 @@ h1 {
 <small>namespaced files are an exception... but that's for another day.</small>
 
 --
+## A property for everything!
+```
+h1 {
+  color: #efefef; /*color of font*/
+  font-size: 16px; /*size of font*/
+  display: block; /*what kind of box is it?*/
+  position: relative; /*how does it stack against other boxes?*/
+}
+```
+What are those ```/*foo bar*/``` things after each line of css?
+
+--
+
+##Comments
+Sometimes I see this:
+```
+<!-- Warning! Wack code below. Edit are your own risk. -->
+```
+
+But this is more helpful:
+```
+<!-- Hidden by default. Add class 'active' to show. -->
+```
+--
+## Can css be interactive?
+
+Dang straight! All you need is a ```Pseudo Class```.
+
+When I hover over a link, change the font from red to green, and underline it.
+```
+a {
+  color: green;
+}
+
+a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+```
+<a style="color: green !important;">Hover over me!</a> &nbsp; on hover &rarr; &nbsp; <a style="color: purple !important;text-decoration: underline!important;">Hover over me!</a>
+
+[Full list of pseudo classes](http://www.w3schools.com/css/css_pseudo_classes.asp)
+
+--
+## Cascading and inheritance
+<small>(This is where it get's a little tougher to understand. So don't get discouraged if you're confused.)</small>
+
+```
+a {
+  color: red;
+}
+
+ul li a {
+  color: blue;
+}
+
+nav ul li a {
+  color: purple;
+}
+
+```
+--
+## Another example
+
+```
+.people {
+  background-color: green;
+}
+
+.people .tom,
+.people .jane {
+  color: blue;
+}
+
+.people .jane .head {
+  color: red;
+}
+```
+<img class="img img-md" src="/images/people.png">
+--
+
 ## The box model
 
 Essentially every html element is considered a **box**.
@@ -314,7 +441,16 @@ In a separate file, placed in the ```<head>``` wit the ```link``` tag?
 **Correct!!!**
 
 --
-My ```index.html``` file
+## Why place CSS in a separate file, and link to it?
+- Helps avoid duplication
+
+- Makes maintenance easier
+
+- Allows you to make a site-wide change in one place
+
+--
+
+<small>My ```index.html``` file</small>
 
 ```
 <!DOCTYPE html>
@@ -329,22 +465,17 @@ My ```index.html``` file
   </body>
 </html>
 ```
-
-My ```styles.css``` file.
-
+<small>My ```styles.css``` file</small>
 ```
 p {
   color: blue;
   font-size: 16px;
 }
-
 .column {
   display: inline-block;
   width: 33%;
-  height: auto;
   float: left;
 }
-
 .column img {
   border: 1px solid #555;
 }
@@ -411,3 +542,28 @@ It's a long discussion why, but you should only use an *ID* with javascript.
   - One named name ```index.html```.
   - One named ```styles.css```.
 - Follow along in [**Example 4**](../code_along/project/index.html)
+
+---
+## Quesitons?
+
+... Nope! I understand everything I'm officially a code ninja.
+
+Thought so! :)
+
+#### Say Hello:
+
+- Email: [paul.ballas@gmail.com](mailto:paul.ballas@gmail.com)
+
+- Twitter: [@paulballas](https://twitter.com/paulballas)
+
+- LinkedIn: [linkedin.com/in/paulballas](https://www.linkedin.com/in/paulballas)
+
+- GitHub: [github.com/paulballas](https://github.com/paulballas)
+
+--
+
+##Resources
+
+- [Frontend Development 1](https://gist.github.com/dypsilon/5819504)
+- [Frontend Development 2](https://github.com/dypsilon/frontend-dev-bookmarks)
+- [Frontend Development 2](http://enboard.co/frontend/)
