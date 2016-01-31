@@ -2,9 +2,13 @@
 
 ## HTML + CSS
 
-### Paul Ballas
+*Instructor: Paul Ballas*
 
-###### Slides available at [GitHub](https://github.com/paulballas/html_css_bootcamp).
+#### Please head to:
+
+[https://ga-denver-paulballas.herokuapp.com](https://ga-denver-paulballas.herokuapp.com)
+
+<small>Slides also available on [GitHub](https://github.com/paulballas/html_css_bootcamp).</small>
 ---
 <img class="img img-s" src="images/ga.png">
 ## Hi, I'm Paul.
