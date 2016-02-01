@@ -264,7 +264,7 @@ Empty tags can be *optionally* be closed, but it's not required:
 - Open up *Atom* (if you don't have atom, download at [atom.io](https://atom.io/))  
 - Open a new window: *Shift + Cmnd + N*.
 - Save the document with the name ```index.html``` on your *Desktop*.
-- Follow along in [**Example 3**](../code_along/ex_two/ex_two.html)
+- Follow along in [**Example 3**](../code_along/ex_three.html)
 
 ---
 ## CSS
@@ -486,9 +486,9 @@ p {
 ```
 --
 
-## I've heard of class and ID, but what's are they?
+## I've heard of a ```class``` and an ```ID```, but what are they?
 
-## What's is the difference?
+## What's the difference?
 
 --
 ## Class v. ID v. element
@@ -545,7 +545,7 @@ It's a long discussion why, but you should only use an *ID* with javascript.
 - Create *2* different files, that'll go inside the ```project```folder:
   - One named name ```index.html```.
   - One named ```styles.css```.
-- Follow along in [**Example 4**](../code_along/project/index.html)
+- Follow along in [**Project**](../code_along/project/index.html)
 
 ---
 ## Quesitons?

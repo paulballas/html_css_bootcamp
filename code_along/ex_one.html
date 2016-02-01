@@ -9,8 +9,32 @@
       html { background: #FDF6F2; }
       span { color: #FF265C; font-weight: bold;}
       p { font-size: 18px;}
-      button {font-size: 14px; padding: 0.5em; border-radius: 5px; background-color: rgba(41, 44, 66, 0.85); color: #fff; border: 1px solid rgba(41, 44, 66, 0.85);}
+      button {font-size: 14px; padding: 0.5em 1.5em; border-radius: 5px; background-color: rgba(41, 44, 66, 0.85); color: #fff; border: 1px solid rgba(41, 44, 66, 0.85);}
       button:hover {cursor: pointer; background-color: rgba(41, 44, 66, 1);}
+      #btn {
+        display: block;
+        position: relative;
+      }
+
+      @keyframes go {
+        from {
+          left: 0;
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        to {
+          left: 500px;
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      .spin {
+        animation: go;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
     </style>
 
   </head>
@@ -18,19 +42,20 @@
   <body>
     <h1>Hello World</h1>
     <p>Welcome to <span>HTML</span> &amp; <span id="css">CSS</span>, basics of coding class.</p>
-    <p style="display:inline-block; margin-right:10px;">Javascript in action &rarr;</p><button style="display:inline-block;" id="btn">change color</button>
+    <p style="display:inline-block; margin-right:10px;">Javascript in action &rarr;</p><button style="display:inline-block;" id="btn">Rotate</button>
 
     <!-- Javascript -->
     <script>
-      function changeColor(newColor) {
-        var elem = document.getElementById("css");
-        elem.style.color = newColor;
-      }
+      // function changeColor(newColor) {
+      //   var elem = document.getElementById("css");
+      //   elem.style.color = newColor;
+      // }
 
       var bar = document.getElementById('btn');
 
       bar.onclick = function changeme() {
-        changeColor("#C420D4");
+        // changeColor("#C420D4");
+        bar.className = 'spin';
       }
     </script>
 
