@@ -22,9 +22,7 @@
 - **8:00 8:15** HTML Code together
 - **8:15 - 9:15** CSS
 - **9:15 - 9:30** CSS Code together
-- **8:15 - 9:15** CSS
 - **9:30** Questions + See ya later!
-
 
 ---
 ## Introduction
