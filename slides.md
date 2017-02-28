@@ -4,9 +4,11 @@
 
 *Instructor: Paul Ballas*
 
-#### Please head to:
+### Slides will be available after class
 
-[https://ga-denver-paulballas.herokuapp.com](https://ga-denver-paulballas.herokuapp.com)
+<!-- #### Please head to:
+
+[https://ga-denver-paulballas.herokuapp.com](https://ga-denver-paulballas.herokuapp.com) -->
 
 <small>Slides also available on [GitHub](https://github.com/paulballas/html_css_bootcamp).</small>
 ---
@@ -17,11 +19,11 @@
 ---
 ### Schedule
 - **6:30 - 6:40** Welcome! + Introduction
-- **6:40 - 6:55** What we'll be learning + The Web)
-- **6:55- 8:00** HTML
-- **8:00 8:15** HTML Code together
-- **8:15 - 9:15** CSS
-- **9:15 - 9:30** CSS Code together
+- **6:40 - 7:00** What is the web?
+- **7:00 - 8:00** HTML
+- **8:00 - 8:15** Code tutorial 1
+- **8:15 10-min** Break
+- **8:25 - 9:15** CSS
 - **9:30** Questions + See ya later!
 
 ---
@@ -31,86 +33,13 @@
 
 --
 
-## 1992
-Convinces parents to sign up for AOL
-
---
-
-## 1993
-Discovers AngelFire and Geocities.
-<br />
-Builds first website. Fan site for **SouthPark**.
-
---
-
-## Aug 1, 2003
-
-Starts as a freshmen at Quinnipiac University in Connecicut. Hopes of playing Division 1 ice hockey.
-
---
-
-## Sep 1, 2003
-
-Realizes not good enough to play D1 hockey. Transfers to Radford University in Virgina.
-
---
-## Fast forward.
-
-- Graduates from Radford.
-- Delays real world and stays for grad school in finance.
-- Moves to Charlotte, NC and works for Bank of America as a trader
-- Market crashes 6 months after starting. Gets laid off.
-- Moves back home to Washington, DC
-
---
-
-<img class="img img-md" src="images/hw.png">
-<br />
-- Joins **HelloWallet** as 4th employee and 1st product manager.
-- Combines background of coding and finance.
-
---
-
-<img class="img img-md" src="images/hw.png">
-<br />
-- Realize love for making wireframes and designing.
-- Convinces execs to pay for classes at the D(Design) School at Stanford University.
-- Becomes **Head of UX**
-
---
-
-<img class="img img-s inline" src="images/hw.png">
-<img class="img img-s inline" src="images/dd.png">
-- **HelloWallet** acquired by Morningstar for $50M.
-- Joins **DeloitteDigital** as a **Lead UX Designer**.
-
---
-
-## June 2015
-- Moves to Denver (woot!)
-- Stays with DeloitteDigital (initally)
-- Becomes mentor at **Galvanize**
-
---
-
-## Today
-<img class="img img-icon" src="images/pana.png">
-- Joins **Pana** as **Head of Product** in August.
-- Pana is virtual travel app, backed by:
-  - **Techstars**
-  - **500 Startups**
-  - **Foundry Group**
-  - among other angels.
-
---
-
-## Also...
-
-<img class="img img-xs inline" src="images/ga.png">
-<img class="img img-xs inline" src="images/gal.png">
-<img class="img img-xs inline" src="images/1776.png">
+## Hey, I'm Paul.
+<img class="img img-icon inline" src="images/pana.png">
+<img class="img img-icon inline" src="images/ga.png">
+<img class="img img-icon inline" src="images/gal.png">
+<img class="img img-icon inline" src="images/1776.png">
+- Head of Product at **Pana**
 - Teach at **GeneralAssembly**
-  - Front-end dev & UX design
 - Mentors startups at **1776** (DC based incubator).
 - Mentors startups at **Galvanize**.
 
@@ -251,18 +180,6 @@ Empty tags can be *optionally* be closed, but it's not required:
 
 ## Outline
 <img src="/images/html.png" class="img img-lg">
-
---
-
-# Let's write some code!
-
---
-## What to do
-
-- Open up *Atom* (if you don't have atom, download at [atom.io](https://atom.io/))  
-- Open a new window: *Shift + Cmnd + N*.
-- Save the document with the name ```index.html``` on your *Desktop*.
-- Follow along in [**Example 3**](../code_along/ex_three.html)
 
 ---
 ## CSS
@@ -537,13 +454,9 @@ It's a long discussion why, but you should only use an *ID* with javascript.
 --
 ## What to do
 
-- Open up *Atom*
-- Create a new folder on your *Desktop*, and name it ```project```.
-- *Drag* the folder to *Atom* (It'll open the folder in *Atom*)
-- Create *2* different files, that'll go inside the ```project```folder:
-  - One named name ```index.html```.
-  - One named ```styles.css```.
-- Follow along in [**Project**](../code_along/project/index.html)
+- Open up *Atom* or *Sublime Text*.
+- Open a new file *(File > New)* or *Cmd + N*
+- Follow along with our [**code project**](../code_along/ex_three.html)
 
 ---
 ## Quesitons?
